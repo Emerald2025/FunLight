@@ -1,0 +1,323 @@
+{{ 'fingerprintjs2.js' | asset_url | script_tag }}
+<div class="verify_page" style="display: none">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <style>
+        .wrapper_flex {
+            display: flex;
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            padding: 0 10px;
+            margin: 10px 0px;
+        }
+        .verify_wrap_border {
+            margin: 0 auto;
+            display: inline-block;
+            position: relative;
+            background: linear-gradient(to bottom, #aae4e6, #7062f0);
+            padding: 3px;
+            width: 632px;
+        }
+        .verify_wrapper {
+            width: 100%;
+            height: 410px;
+            background: #FFFFFF;
+            padding: 47px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .verify_wrapper .circle {
+            width: 107px;
+            height: 107px;
+            border: 2px solid #979797;
+            border-radius: 54px;
+            display: inline-block;
+            position: relative;
+        }
+        .verify_wrapper .circle > i {
+            position: absolute;
+            top: 37px;
+            left: 42px;
+            font-size: 32px;
+        }
+        .verify_wrapper-head {
+            color: #000000;
+            font-size: 24px;
+            font-weight: 300;
+            margin-bottom: 50px;
+        }
+        .verify_wrapper .beacon_btn_box > .beacon_answer {
+            cursor: pointer;
+            display: inline-block;
+            width: 147px;
+            font-size: 21px;
+            font-weight: 300;
+            padding: 8px 0;
+            border-radius: 4px;
+            transition: all 0.1s ease;
+        }
+        .verify_wrapper .beacon_btn_box  > .beacon_answer:first-of-type{
+            margin-right: 10px;
+        }
+        #btn_box_yes {
+            color: #000000;
+            background: #b3bcf5;
+        }
+        #btn_box_yes:hover {
+            background: #bec6f6;
+            -webkit-box-shadow: 0px 2px 6px -2px rgba(179,179,179,1);
+            -moz-box-shadow: 0px 2px 6px -2px rgba(179,179,179,1);
+            box-shadow: 0px 2px 6px -2px rgba(179,179,179,1);
+        }
+        #btn_box_no {
+            color: #fffff0;
+            background: #202e78;
+        }
+        #btn_box_no:hover {
+            background: #303d83;
+            -webkit-box-shadow: 0px 3px 6px -2px rgba(136,140,164,1);
+            -moz-box-shadow: 0px 3px 6px -2px rgba(136,140,164,1);
+            box-shadow: 0px 3px 6px -2px rgba(136,140,164,1);
+        }
+        @media (max-width: 430px) {
+            .verify_wrapper-head{
+                margin-bottom: 30px;
+            }
+            .verify_wrapper .beacon_btn_box > .beacon_answer {
+                display: block;
+                margin: 0 auto;
+            }
+            .verify_wrapper .beacon_btn_box > .beacon_answer:first-of-type{
+                margin: 0 auto;
+                margin-bottom: 15px;
+            }
+            .verify_wrapper{
+                height:430px;
+                padding: 20px 0 0 0;
+            }
+            .verify_wrap_border {
+                width: 100%;
+            }
+        }
+    </style>
+    <div class="wrapper_flex">
+        <div class="verify_wrap_border">
+            <div class="verify_wrapper">
+                <div class="circle">
+                    <i class="fas fa-clipboard-check"></i>
+                </div>
+                <p class="verify_wrapper-head">こちらのサイトから注文しましたか？ <br>
+                    funlogy.jp?</p>
+                <div class="beacon_btn_box">
+                    <div class="beacon_answer" id="btn_box_yes" data-id="yes">はい</div>
+                    <div class="beacon_answer" id="btn_box_no" data-id="no">いいえ</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ 'includejquery_beacon.js' | asset_url | script_tag }}
+<script>
+    includejQuery(function($){
+        $(document).ready(function(){
+
+            function fingerprint() {
+                var canvas = document.createElement('canvas');
+                var ctx = canvas.getContext('2d');
+                var txt = 'i9asdm..$#po((^@KbXrww!~cz';
+                ctx.textBaseline = "top";
+                ctx.font = "16px 'Arial'";
+                ctx.textBaseline = "alphabetic";
+                ctx.rotate(.05);
+                ctx.fillStyle = "#f60";
+                ctx.fillRect(125,1,62,20);
+                ctx.fillStyle = "#069";
+                ctx.fillText(txt, 2, 15);
+                ctx.fillStyle = "rgba(102, 200, 0, 0.7)";
+                ctx.fillText(txt, 4, 17);
+                ctx.shadowBlur=10;
+                ctx.shadowColor="blue";
+                ctx.fillRect(-20,10,234,5);
+                var strng=canvas.toDataURL();
+
+                var hash=0;
+                if (strng.length==0) return 'nothing!';
+                for (i = 0; i < strng.length; i++) {
+                    char = strng.charCodeAt(i);
+                    hash = ((hash<<5)-hash)+char;
+                    hash = hash & hash;
+                }
+                return hash;
+            }
+
+            if ($('body').find('.verify_page').length != 0) {
+                function getQueryParams(qs) {
+                    qs = qs.split("+").join(" ");
+                    var params = {},
+                        tokens,
+                        re = /[?&]?([^=]+)=([^&]*)/g;
+
+                    while (tokens = re.exec(qs)) {
+                        params[decodeURIComponent(tokens[1])]
+                            = decodeURIComponent(tokens[2]);
+                    }
+
+                    return params;
+                }
+
+                var params = getQueryParams(document.location.search);
+
+                var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                var tz_offset = new Date().getTimezoneOffset();
+                var time_utc = new Date().getTime();
+
+                if (typeof params['code'] === 'undefined' || typeof params['id'] === 'undefined') {
+                    $('.verify_page').html('<h3 style="text-align:center;">Nothing here.</h3>');
+                } else {
+                    const type = params['type'] ?? 'sms';
+                    $.ajax({
+
+                        type: "POST",
+                        url: 'https://apt507.com/apartment/check_verify',
+                        crossDomain: true,
+                        async: false,
+                        data: {
+                            "id":params['id'],
+                            "key":params['key'],
+                            "type": type
+                        },
+                        dataType: 'json',
+                        cache: false,
+                        success: function (data) {
+                            if (data.result === 1) {
+                                if (data.verified === '1') {
+                                    $('.verify_page').html('<p style="text-align:center;margin-top:20px;">既にアカウントを認証済みです！</p>');
+                                } else if (data.verified === '2') {
+                                    $('.verify_page').html('<p style="text-align:center;margin-top:20px;">You have already denied verification.</p>');
+                                }
+                            }
+                            $('.verify_page').show();
+                        },
+                        error: function (error) {
+                            console.log('Server error');
+                            console.log(error);
+                        }
+                    });
+                    if (window.requestIdleCallback) {
+                        requestIdleCallback(function () {
+                            Fingerprint2.get(function (components) {
+                                console.log(components) // an array of components: {key: ..., value: ...}
+                                $.ajax({
+
+                                    type: "POST",
+                                    url: 'https://apt507.com/apartment/get_fingerprint',
+                                    crossDomain: true,
+                                    async: true,
+                                    data: {
+                                        "id": params['id'],
+                                        "key": params['key'],
+                                        "fingerprint": components,
+                                        "canvas": fingerprint()
+                                    },
+                                    dataType: 'json',
+                                    cache: false,
+                                    success: function (data) {
+                                        console.log('ok');
+                                    },
+                                    error: function (error) {
+                                        console.log('Server error');
+                                        console.log(error);
+                                    }
+                                });
+                            })
+                        })
+                    } else {
+                        setTimeout(function () {
+                            Fingerprint2.get(function (components) {
+                                console.log(components) // an array of components: {key: ..., value: ...}
+                                $.ajax({
+
+                                    type: "POST",
+                                    url: 'https://apt507.com/apartment/get_fingerprint',
+                                    crossDomain: true,
+                                    async: true,
+                                    data: {
+                                        "id": params['id'],
+                                        "key": params['key'],
+                                        "fingerprint": components,
+                                        "canvas": fingerprint()
+                                    },
+                                    dataType: 'json',
+                                    cache: false,
+                                    success: function (data) {
+                                        console.log('ok');
+                                    },
+                                    error: function (error) {
+                                        console.log('Server error');
+                                        console.log(error);
+                                    }
+                                });
+                            })
+                        }, 1000)
+                    }
+                }
+
+                $('.verify_page').on('click','.beacon_btn_box .beacon_answer',function() {
+                    var browserInfo = navigator.appVersion;
+                    + new Date();
+                    var timestamp = Math.floor(Date.now() / 1000);
+                    var answer = 'yes';
+                    if ($(this).attr("data-id")==='no')
+                        answer = 'no';
+
+                    const type = params['type'] ?? 'sms';
+                    $.ajax({
+
+                        type: "POST",
+                        url: 'https://apt507.com/apartment/verify_shopify_admin',
+                        crossDomain: true,
+                        async: true,
+                        data: {
+                            "code":params['code'],
+                            "id":params['id'],
+                            "browserInfo": browserInfo,
+                            "date_time": timestamp,
+                            "key":params['key'],
+                            "type": type,
+                            "answer": answer,
+                            "timezone": tz,
+                            "timezone_offset": tz_offset,
+                            "time_utc": time_utc
+                        },
+                        dataType: 'json',
+                        cache: false,
+                        success: function (data) {
+                            if (data.result === 1) {
+                                $('.beacon_btn_box').remove();
+                                if (answer==='yes') {
+                                    $('.verify_wrapper-head').html('ご注文を確認しました。');
+                                } else {
+                                    $('.verify_wrapper-head').html('スタッフに通知いたしました。');
+                                }
+                            } else {
+                                $('.verify_page').html('<p style="text-align:center;margin-top:20px;">'+data.message+'</p>');
+                            }
+                        },
+                        error: function (error) {
+                            console.log('Server error');
+                            console.log(error);
+                            $('.beacon_btn_box').remove();
+                            if (answer==='yes') {
+                                $('.verify_wrapper-head').html('ご注文を確認しました。');
+                            } else {
+                                $('.verify_wrapper-head').html('スタッフに通知いたしました。');
+                            }
+                        }
+                    });
+                });
+            }
+
+        });
+    });
+
+
+</script>

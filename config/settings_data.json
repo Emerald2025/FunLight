@@ -1,0 +1,1566 @@
+{
+  "current": {
+    "heading_color": "#024f53",
+    "text_color": "#024f53",
+    "accent_color": "#014f49",
+    "link_color": "#50798b",
+    "border_color": "#e1e3e4",
+    "background": "#ffffff",
+    "secondary_background": "#f7f8f8",
+    "error_color": "#ff0000",
+    "success_color": "#50798b",
+    "primary_button_background": "#6a9728",
+    "primary_button_text_color": "#ffffff",
+    "secondary_button_background": "#024f53",
+    "secondary_button_text_color": "#ffffff",
+    "header_background": "#e55c04",
+    "header_text_color": "#ffffff",
+    "header_light_text_color": "#024f53",
+    "header_accent_color": "#024f53",
+    "product_on_sale_accent": "#ef812e",
+    "product_in_stock_color": "#50798b",
+    "product_low_stock_color": "#dfa701",
+    "product_sold_out_color": "#8a9297",
+    "product_label_1_background": "#dfa701",
+    "product_label_2_background": "#dfa701",
+    "product_star_color": "#ef812e",
+    "base_text_font_size": 15,
+    "heading_font": "roboto_n7",
+    "text_font": "roboto_n5",
+    "underline_links": true,
+    "animation_image_zoom": false,
+    "currency_conversion_enabled": false,
+    "currency_conversion_round_amounts": false,
+    "currency_conversion_supported_currencies": "JPY",
+    "currency_conversion_money_format": "money_format",
+    "search_mode": "product,article,page",
+    "show_vendor": false,
+    "show_secondary_image": true,
+    "show_discount": true,
+    "discount_mode": "saving",
+    "product_price_position": "after_title",
+    "product_image_size": "square",
+    "show_color_swatch": false,
+    "show_inventory_quantity": false,
+    "low_inventory_threshold": 5,
+    "show_reviews_badge": false,
+    "cart_type": "drawer",
+    "cart_empty_button_link": "shopify:\/\/collections\/all",
+    "cart_show_free_shipping_threshold": false,
+    "cart_free_shipping_threshold": "50",
+    "share_image": "",
+    "social_facebook": "https:\/\/www.facebook.com\/FunLogy.projector\/",
+    "social_twitter": "https:\/\/twitter.com\/Fun_Logy",
+    "social_pinterest": "",
+    "social_instagram": "https:\/\/www.instagram.com\/funlogy\/",
+    "social_vimeo": "",
+    "social_tumblr": "",
+    "social_youtube": "",
+    "social_linkedin": "",
+    "social_snapchat": "",
+    "social_fancy": "",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/newrogo.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#f7f8f8",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#f7f8f8",
+    "checkout_heading_font": "Roboto",
+    "checkout_body_font": "Roboto",
+    "checkout_accent_color": "#ee7800",
+    "checkout_button_color": "#eb9d00",
+    "checkout_error_color": "#ff0000",
+    "social_google_plus": "",
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "1582160236885": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "",
+              "image_1_heading": "",
+              "image_1_text": "",
+              "image_2_heading": "Your image",
+              "image_2_text": "Tell your story"
+            }
+          }
+        },
+        "block_order": [
+          "1582160236885"
+        ],
+        "settings": {
+          "enable_sticky_header": true,
+          "logo": "shopify:\/\/shop_images\/rogo_5b807dc9-84f0-41cc-ba57-b29671155ed1.png",
+          "logo_max_width": 160,
+          "mobile_logo_max_width": 110,
+          "navigation_menu": "main-menu",
+          "desktop_navigation_layout": "inline",
+          "desktop_navigation_open_trigger": "hover",
+          "show_navigation_social_media": true,
+          "navigation_phone_number": "Call us 043-441-3887",
+          "navigation_email": "support@funlogy.jp",
+          "show_condensed_search": true,
+          "show_search_filter": false,
+          "search_menu": "",
+          "show_search_menu_title": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-1": {
+            "type": "links",
+            "settings": {
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "footer-1"
+        ],
+        "settings": {
+          "show_social_media": true,
+          "show_payment_icons": false,
+          "show_cookie_bar": false,
+          "text": "<p>Use this bar to show information about your cookie policy.<\/p>",
+          "accept_button": "Accept",
+          "category_img-1": "shopify:\/\/shop_images\/icon5-min.png",
+          "category_ttl-1": "充実したアフターサポート",
+          "category_txt-1": "LINEや電話で、使用方法などを<br>説明させていただきます。",
+          "category_url-1": "https:\/\/funlogy.jp\/pages\/beginners-guide#s-d52fe6a4-f8fb-472f-b267-7008c74d894c",
+          "category_img-2": "shopify:\/\/shop_images\/icon0-min.png",
+          "category_ttl-2": "365日当日発送",
+          "category_txt-2": "12時までのご注文で、365日当日発送。<br>全国送料無料です。",
+          "category_url-2": "https:\/\/funlogy.jp\/pages\/shopping-guide#s-20b45913-5f25-435c-80df-dac07403aaee",
+          "category_img-3": "shopify:\/\/shop_images\/icon3-min.png",
+          "category_ttl-3": "30日返品、返金保証",
+          "category_txt-3": "イメージと違う、想定した用途で使用できない<br>といった場合はお気軽に返品可能です。",
+          "category_url-3": "https:\/\/funlogy.jp\/pages\/purchaser#s-21bf93b0-7ae2-4724-9b93-e744c8281284",
+          "category_img-4": "shopify:\/\/shop_images\/icon2-min.png",
+          "category_ttl-4": "お支払い方法",
+          "category_txt-4": "クレジットカード、銀行振り込み、代金引換、<br>Amazonペイメントからお選びいただけます。",
+          "category_url-4": "https:\/\/funlogy.jp\/pages\/shopping-guide#s-6e49edfc-d568-445f-9f06-0d27e17a730a"
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "frontpage",
+              "image": "shopify:\/\/shop_images\/family_6809e1b6-7ce3-4416-bc04-fd5a9cd0418e.jpg",
+              "description_text": ""
+            }
+          },
+          "collection-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "屋外で使う",
+              "image": "shopify:\/\/shop_images\/camp2.jpg",
+              "description_text": ""
+            }
+          },
+          "collection-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "みんなで使う",
+              "image": "shopify:\/\/shop_images\/773bda46c80b88491817feed99bfdd48.JPG",
+              "description_text": ""
+            }
+          },
+          "collection-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "ビジネスで使う",
+              "image": "shopify:\/\/shop_images\/business_7c2d6718-0cc5-4d8c-98ed-8ab91a04653f.jpg",
+              "description_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "collection-0",
+          "collection-2",
+          "collection-3",
+          "collection-1"
+        ],
+        "settings": {
+          "title": "目的から選ぶ",
+          "link_title": "",
+          "link": "shopify:\/\/collections",
+          "round_images": true,
+          "show_collection_title": true
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_image": true,
+          "collapse_collection_description": false,
+          "collection_image_size": "small",
+          "products_per_row": "4",
+          "default_products_per_page": 24,
+          "default_view_layout": "grid",
+          "show_quick_buy": "list",
+          "show_quick_view": "list",
+          "quick_links": "",
+          "quick_links_show_products_count": true,
+          "show_filters": true,
+          "show_filter_color_swatch": true,
+          "filter_type": "tag",
+          "open_group_filters_mode": "all_closed",
+          "filter_group_order": ""
+        }
+      },
+      "recently-viewed-products": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "title": "Recently viewed",
+          "show_quick_buy": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_vendor": false,
+          "show_sku": false,
+          "show_share_buttons": false,
+          "show_taxes_included": true,
+          "selector_mode": "block",
+          "color_mode": "color",
+          "show_quantity_selector": true,
+          "show_payment_button": true,
+          "image_size": "large",
+          "enable_image_zoom": false,
+          "enable_video_looping": false,
+          "zoom_effect": "outside",
+          "carousel_effect": "fade",
+          "show_inventory_quantity": false,
+          "low_inventory_threshold": 0,
+          "content_display_mode": "collapse_all",
+          "tab_page_1_handle": "",
+          "tab_page_2_handle": "",
+          "tab_page_3_handle": "",
+          "enable_reviews": true,
+          "show_reviews_badge": false,
+          "trust_title": "お支払い方法・セキュリティ",
+          "show_payment_icons": true,
+          "custom_security_badge": "",
+          "show_shipping_estimator": false,
+          "shipping_estimator_default_country": "United States",
+          "show_refunds_policy": true
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "この商品をチェックした人はこんな商品もチェックしています",
+          "show_quick_buy": false
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "show_announcement": false,
+          "background": "#024f53",
+          "text_color": "#ffffff",
+          "text": "2020\/4\/1 公式サイト リニューアルオープン！",
+          "text_position": "center",
+          "show_newsletter": false,
+          "newsletter_button": "",
+          "newsletter_title": "",
+          "newsletter_content": ""
+        }
+      },
+      "popups": {
+        "type": "popups",
+        "settings": {}
+      },
+      "text-with-icons": {
+        "type": "text-with-icons",
+        "settings": {
+          "show_section": true,
+          "stack_mobile": true
+        }
+      },
+      "1582160865636": {
+        "type": "rich-text",
+        "disabled": true,
+        "settings": {
+          "text_width": "narrow",
+          "title": "FunLogyのメッセージ",
+          "content": "<p>あなたと周りの人の365日をもっと楽しいものにしたい。<\/p><p>その為に私たちが出来る最高のおもてなしを提供いたします。<\/p>",
+          "button_text": "FunLogyについて",
+          "button_link": "https:\/\/funlogy.jp\/pages\/about"
+        }
+      },
+      "1582161789764": {
+        "type": "mosaic",
+        "disabled": true,
+        "blocks": {
+          "1582161789764-0": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/FunLogy2248.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 51,
+              "background": "#e3e3e3",
+              "text_color": "#ffffff",
+              "title": "",
+              "content": "",
+              "content_position": "middle_center",
+              "button_background": "#4f5558",
+              "button_text_color": "#f3f4f4",
+              "button_text": "",
+              "link": "shopify:\/\/products\/funlogy-mini"
+            }
+          },
+          "1582161789764-3": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cube.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 34,
+              "background": "#f3f4f4",
+              "text_color": "#ffffff",
+              "title": "",
+              "content": "",
+              "content_position": "top_left",
+              "button_background": "#4f5558",
+              "button_text_color": "#f3f4f4",
+              "button_text": "",
+              "link": "shopify:\/\/products\/funcube"
+            }
+          },
+          "1582161789764-2": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3.jpg",
+              "show_overlay": false,
+              "overlay_opacity": 50,
+              "background": "#000000",
+              "text_color": "#ffffff",
+              "title": "",
+              "content": "",
+              "content_position": "middle_center",
+              "button_background": "#4f5558",
+              "button_text_color": "#f3f4f4",
+              "button_text": "",
+              "link": "shopify:\/\/products\/funlogy-x-03"
+            }
+          },
+          "1582161789764-1": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/sound.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 50,
+              "background": "#f3f4f4",
+              "text_color": "#ffffff",
+              "title": "",
+              "content": "",
+              "content_position": "top_left",
+              "button_background": "#4f5558",
+              "button_text_color": "#f3f4f4",
+              "button_text": "",
+              "link": "shopify:\/\/products\/funlogy-music"
+            }
+          },
+          "1582161789764-4": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/FunLogy2182.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 9,
+              "background": "#ffffff",
+              "text_color": "#ffffff",
+              "title": "",
+              "content": "",
+              "content_position": "top_left",
+              "button_background": "#4f5558",
+              "button_text_color": "#f3f4f4",
+              "button_text": "",
+              "link": "shopify:\/\/products\/funlogy-air"
+            }
+          }
+        },
+        "block_order": [
+          "1582161789764-0",
+          "1582161789764-3",
+          "1582161789764-2",
+          "1582161789764-1",
+          "1582161789764-4"
+        ],
+        "settings": {
+          "section_size": "small"
+        }
+      },
+      "static-promotion-list": {
+        "type": "static-promotion-list",
+        "settings": {
+          "expand_items": false,
+          "section_size": "medium",
+          "stack_mobile": false
+        }
+      },
+      "static-recently-viewed-products": {
+        "type": "static-recently-viewed-products",
+        "settings": {
+          "show_section": true,
+          "title": "最近見た商品",
+          "show_quick_buy": false
+        }
+      },
+      "1582166449294": {
+        "type": "blog-posts",
+        "disabled": true,
+        "settings": {
+          "blog": "",
+          "title": "スタッフ紹介",
+          "link_title": "View all",
+          "show_category": true,
+          "show_author": true,
+          "show_date": true,
+          "show_excerpt": false,
+          "stack_mobile": true
+        }
+      },
+      "1582167733122": {
+        "type": "image-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/IMG_8759_c8682078-299c-47f0-a44b-2c74e8cc27b7.PNG",
+          "image_position": "right",
+          "image_width": 45,
+          "title": "プロジェクター・スピーカーを365日楽しんでいただくために",
+          "content": "<p>専門店だから出来るきめ細やかな対応により、FunLogyの製品はよりストレスフリーに、よりスピーディーに、よりスムーズに楽しんでいただくことが可能です。<\/p><p><\/p>",
+          "button_text": "FunLogyの取り組みを読む",
+          "button_link": "shopify:\/\/pages\/beginners-guide"
+        }
+      },
+      "1582168342347": {
+        "type": "video",
+        "disabled": true,
+        "blocks": {
+          "1582168342347-0": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/youtu.be\/F7boLPvRQCw",
+              "image": "shopify:\/\/shop_images\/samunewifi.jpg"
+            }
+          },
+          "1584608655098": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/youtu.be\/4ew1lQOgYH4",
+              "image": "shopify:\/\/shop_images\/samunehdmi.jpg"
+            }
+          },
+          "1584608669972": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/youtu.be\/WVQqqvTkihM",
+              "image": "shopify:\/\/shop_images\/samunesumaho.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "1582168342347-0",
+          "1584608655098",
+          "1584608669972"
+        ],
+        "settings": {
+          "title": "接続・操作方法"
+        }
+      },
+      "1582169661061": {
+        "type": "blog-posts",
+        "settings": {
+          "blog": "reading",
+          "title": "日常を楽しむアイデア",
+          "link_title": "もっと見る",
+          "show_category": true,
+          "show_author": false,
+          "show_date": true,
+          "show_excerpt": false,
+          "stack_mobile": false
+        }
+      },
+      "1582287578495": {
+        "type": "mosaic",
+        "disabled": true,
+        "blocks": {
+          "1582287578495-0": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/happydesign.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 32,
+              "background": "#f3f4f4",
+              "text_color": "#ffffff",
+              "title": "日常を楽しくするアイデア",
+              "content": "",
+              "content_position": "middle_center",
+              "button_background": "#4f5558",
+              "button_text_color": "#ffffff",
+              "button_text": "",
+              "link": "https:\/\/funlogy.jp\/blogs\/%E6%97%A5%E5%B8%B8%E3%82%92%E3%82%82%E3%81%A3%E3%81%A8%E6%A5%BD%E3%81%97%E3%81%8F%E3%81%99%E3%82%8B%E3%82%A2%E3%82%A4%E3%83%87%E3%82%A3%E3%82%A2"
+            }
+          }
+        },
+        "block_order": [
+          "1582287578495-0"
+        ],
+        "settings": {
+          "section_size": "large"
+        }
+      },
+      "1582288257446": {
+        "type": "logo-list",
+        "blocks": {
+          "1590225194715": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/rakuten.png"
+            }
+          },
+          "1582288257446-1": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Amazon_1fe49e6a-6a34-435b-96d4-1a3eadb3d092.png"
+            }
+          },
+          "1582288257446-0": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Yahoo.png"
+            }
+          },
+          "1582288257446-2": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/840607cfef7a6508a5a5e0be3c516f2d.png"
+            }
+          },
+          "1582288257446-3": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2fc2b4f0dba1e0239e387137b267154a.png"
+            }
+          },
+          "1582288257446-4": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/a3faa29be0666cd52c5e2666ebb5dd37.png"
+            }
+          },
+          "1585295165607": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ffe135054612e6826ecdcc3db2f0bdfe.png"
+            }
+          },
+          "1585303176087": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mufg_4f17b751-b331-4020-a1fc-813f15ba9ffe.png"
+            }
+          },
+          "1585303586473": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/4311c2caf880104d0e5d05df92e4d5ed.png"
+            }
+          },
+          "1585303261323": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Makuake_Logo_yoko.png"
+            }
+          }
+        },
+        "block_order": [
+          "1590225194715",
+          "1582288257446-1",
+          "1582288257446-0",
+          "1582288257446-2",
+          "1582288257446-3",
+          "1582288257446-4",
+          "1585295165607",
+          "1585303176087",
+          "1585303586473",
+          "1585303261323"
+        ],
+        "settings": {
+          "title": "主要取引先",
+          "link_title": ""
+        }
+      },
+      "static-newsletter": {
+        "type": "static-newsletter",
+        "settings": {
+          "show_section": false,
+          "title": "Subscribe to our newsletter",
+          "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+          "subtext": "100% free, Unsubscribe any time!",
+          "background": "#1e2d7d",
+          "text": "#ffffff"
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "enable_order_notes": true,
+          "show_payment_icons": true,
+          "gift_wrap_product": "",
+          "gift_wrap_text": "Do you want a gift wrap?",
+          "gift_wrap_button": "Add a gift wrap",
+          "show_shipping_estimator": true,
+          "shipping_estimator_default_country": "United States",
+          "trust_heading": "Our guarantees",
+          "upsell_heading": "Complete your cart",
+          "upsell_collection": "",
+          "upsell_products_count": 4
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "articles_per_page": 13,
+          "highlight_first_article": false,
+          "show_tags": true,
+          "show_category": true,
+          "show_author": false,
+          "show_date": true,
+          "show_excerpt": true
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "blocks": {
+          "1582772371001": {
+            "type": "collection",
+            "settings": {
+              "collection": "frontpage"
+            }
+          },
+          "1582772388161": {
+            "type": "collection",
+            "settings": {
+              "collection": "屋外で使う"
+            }
+          },
+          "1582772394688": {
+            "type": "collection",
+            "settings": {
+              "collection": "みんなで使う"
+            }
+          },
+          "1582772400663": {
+            "type": "collection",
+            "settings": {
+              "collection": "ビジネスで使う"
+            }
+          }
+        },
+        "block_order": [
+          "1582772371001",
+          "1582772388161",
+          "1582772394688",
+          "1582772400663"
+        ],
+        "settings": {
+          "collections_to_show": "selected",
+          "show_collection_title": true,
+          "show_collection_overlay": true,
+          "collection_overlay_opacity": 20
+        }
+      },
+      "1585132165923": {
+        "type": "instafeed",
+        "settings": {
+          "heading_font": "helvetica_n4",
+          "heading_size": 20,
+          "feed_width": 100,
+          "html_area": ""
+        }
+      },
+      "1585308225635": {
+        "type": "mosaic",
+        "blocks": {
+          "1585308225635-2": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3a1060af336919c29e12b225430d2b0e.png",
+              "show_overlay": true,
+              "overlay_opacity": 47,
+              "background": "#f3f4f4",
+              "text_color": "#ffffff",
+              "title": "接続・操作方法",
+              "content": "",
+              "content_position": "middle_center",
+              "button_background": "#6a9728",
+              "button_text_color": "#f3f4f4",
+              "button_text": "その他 動画一覧はこちら",
+              "link": "shopify:\/\/pages\/howto"
+            }
+          }
+        },
+        "block_order": [
+          "1585308225635-2"
+        ],
+        "settings": {
+          "section_size": "medium"
+        }
+      },
+      "1585637935130": {
+        "type": "rich-text",
+        "settings": {
+          "text_width": "narrow",
+          "title": "",
+          "content": "",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "1585641260066": {
+        "type": "featured-product",
+        "disabled": true,
+        "settings": {
+          "product": "funlogy-x-03",
+          "title": "ピックアップ商品",
+          "link_title": "詳細を見る",
+          "show_vendor": false,
+          "show_sku": false,
+          "show_share_buttons": false,
+          "show_description": false,
+          "description_below_add_to_cart": false,
+          "selector_mode": "block",
+          "color_mode": "color",
+          "show_quantity_selector": true,
+          "show_reviews_badge": false,
+          "show_payment_button": true,
+          "image_size": "small",
+          "enable_image_zoom": true,
+          "enable_video_looping": false,
+          "zoom_effect": "outside",
+          "carousel_effect": "fade",
+          "show_inventory_quantity": false,
+          "low_inventory_threshold": 0
+        }
+      },
+      "1585650271649": {
+        "type": "rich-text",
+        "disabled": true,
+        "settings": {
+          "text_width": "narrow",
+          "title": "Gallery",
+          "content": "",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "1585900114045": {
+        "type": "custom-html",
+        "settings": {
+          "title": "",
+          "html": "<h2 class=\"h2_25px\">\n      FunLogyの商品を見る\n  <\/h2>\n\n\n<div class=\"shogun-root\" data-shogun-id=\"5e72eeb7e7d4c3006acd4d23\" data-shogun-site-id=\"37959b91-7d24-43b2-980c-ae92b7adf2b0\" data-shogun-page-id=\"5e72eeb7e7d4c3006acd4d23\" data-shogun-page-version-id=\"5eafcaaff58f390051fa0fdc\" data-shogun-platform-type=\"shopify\" data-shogun-variant-id=\"5eafcaaff58f390051fa1057\" data-region=\"main\">\n  <link rel=\"stylesheet\" type=\"text\/css\" href=\"https:\/\/fonts.googleapis.com\/css?family=Roboto:300%7CRoboto:700\">\n\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"https:\/\/cdn.getshogun.com\/5eafcaaff58f390051fa1057.css\">\n\n\n\n\n\n\n<div class=\"sukima_koba\">\n<div class=\"sukima2_koba\">\n<div class=\"shg-c shogun-image-container  shogun-image-linked  shg-align-center\" style=\"\" id=\"s-7f3f42b0-3ca6-4fa5-aafb-87b10361fe38\">\n\n    <a class=\"shogun-image-link\" href=\"https:\/\/funlogy.jp\/collections\/product_all\/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%82%BF%E3%83%BC\">\n  \n      <img data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0334\/2552\/2827\/files\/newa.jpg?v=1612952462\" width=\"\" height=\"\" style=\"\" alt=\"\" class=\"shogun-image lazyautosizes lazyload\">\n    <p>プロジェクターを見る　&gt;<\/p>\n  \n    <\/a>\n  \n<\/div>\n  \n<\/div>\n\n\n\n\n\n<div class=\"shg-c shogun-image-container  shogun-image-linked  shg-align-center\" style=\"\" id=\"s-abd30738-c9d0-4920-8ec0-f7b8f4ba18c7\">\n  \n    <a class=\"shogun-image-link\" href=\"https:\/\/funlogy.jp\/collections\/product_all\/%E3%82%B9%E3%83%94%E3%83%BC%E3%82%AB%E3%83%BC?ose=false\">\n  \n    \n      <img data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0334\/2552\/2827\/files\/newb.jpg?v=1612952462\" width=\"\" height=\"\" style=\"\" alt=\"\" class=\"shogun-image lazyautosizes lazyload\">\n    <p>スピーカーを見る　&gt;<\/p>\n  \n    <\/a>\n  \n  \n  \n<\/div>\n\n\n\n  <div class=\"shg-c  \" id=\"s-a5d40e9e-417a-4ebf-b9f7-8b8b89a5027c\">\n    <div class=\"shg-row\" data-col-grid-mode-on=\"\">\n      <div class=\"shg-c-lg-6 shg-c-md-6 shg-c-sm-6 shg-c-xs-12\">\n\n<div class=\"shg-c shogun-image-container  shogun-image-linked  shg-align-center\" style=\"\" id=\"s-d566ef17-22f5-4a4b-9714-3340c881825a\">\n  \n    <a class=\"shogun-image-link\" href=\"https:\/\/funlogy.jp\/collections\/product_all\/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%82%BF%E3%83%BC\">\n  \n    \n      <img data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0334\/2552\/2827\/files\/newa.jpg?v=1612952462\" width=\"\" height=\"\" style=\"\" alt=\"\" class=\"shogun-image lazyautosizes lazyload\">\n    \n  \n    <\/a>\n  \n  \n  \n<\/div>\n\n\n<div id=\"s-dc8d04c2-71d6-4f41-98c1-09b87704c56c\" class=\"shg-c  shg-align-center\">\n  <div class=\"shogun-heading-component\">\n  <h3>\n    \n      <a href=\"https:\/\/funlogy.jp\/collections\/product_all\/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%82%BF%E3%83%BC\" target=\"_self\">\n    \n      プロジェクターを見る　&gt;<br>\n    \n      <\/a>\n    \n  <\/h3>\n<\/div>\n<\/div>\n<\/div>\n      <div class=\"shg-c-lg-6 shg-c-md-6 shg-c-sm-6 shg-c-xs-12\">\n\n<div class=\"shg-c shogun-image-container  shogun-image-linked  shg-align-center\" style=\"\" id=\"s-f73916ce-840c-4135-b559-c7fdaeb276d3\">\n  \n    <a class=\"shogun-image-link\" href=\"https:\/\/funlogy.jp\/collections\/product_all\/%E3%82%B9%E3%83%94%E3%83%BC%E3%82%AB%E3%83%BC?ose=false\">\n  \n    \n      <img data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0334\/2552\/2827\/files\/newb.jpg?v=1612952462\" width=\"\" height=\"\" style=\"\" alt=\"\" class=\"shogun-image lazyautosizes lazyload\">\n    \n  \n    <\/a>\n  \n  \n  \n<\/div>\n\n\n<div id=\"s-71141453-0da1-477f-855e-6f8b066d8027\" class=\"shg-c  shg-align-center\">\n  <div class=\"shogun-heading-component\">\n  <h3>\n    \n      <a href=\"https:\/\/funlogy.jp\/collections\/product_all\/%E3%82%B9%E3%83%94%E3%83%BC%E3%82%AB%E3%83%BC?ose=false\" target=\"_self\">\n    \n      スピーカーを見る　&gt;\n    \n      <\/a>\n    \n  <\/h3>\n<\/div>\n<\/div>\n<\/div>\n      \n      \n      \n      \n    <\/div>\n  <\/div>\n<\/div>\n<\/div>\n\n\n\n\n<style>\n.sukima_koba{\nmargin:10px;\n}\n.sukima2_koba{\nmargin:0 0 10px 0;\n}\n\n<\/style>"
+        }
+      },
+      "1586509264865": {
+        "type": "custom-html",
+        "settings": {
+          "title": "",
+          "html": "<div class=\"container\">\n\n<center><a href=\"https:\/\/funlogy.jp\/pages\/shopping-guide\"><div class=\"guidelink\"><img class=\"lazyautosizes lazyload\" data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0334\/2552\/2827\/files\/438f777900a99d970a6c61b9e95e62a0.png?v=1586578511\" width=\"700\"><\/div><\/a><\/center>\n<\/div>\n\n<style>.guidelink{\nbackground-color : #eae9e4;\nmax-width :1400px;\n}\n\n\n\n\n\n\n<\/style>"
+        }
+      },
+      "blog-sidebar": {
+        "type": "blog-sidebar",
+        "settings": {
+          "show_on_mobile": true
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "show_category": true,
+          "show_author": false,
+          "show_date": true,
+          "show_share_buttons": true,
+          "show_tags": true,
+          "show_gravatar": false
+        }
+      },
+      "1588150398068": {
+        "type": "rich-text",
+        "disabled": true,
+        "settings": {
+          "text_width": "narrow",
+          "title": "取扱店舗",
+          "content": "<p>一部店舗で、FunLogyの商品を販売しております。<\/p><p>※全ての商品ではないためご注意ください。<\/p>",
+          "button_text": "店舗一覧を見る",
+          "button_link": "shopify:\/\/pages\/access"
+        }
+      },
+      "1588239786388": {
+        "type": "custom-html",
+        "settings": {
+          "title": "",
+          "html": "<div class=\"Purpose_sp\">\n\n<center><h2 class=\"heading h3\">目的から選ぶ<\/h2><\/center>\n\n<div class=\"container\">\t\n\t<div class=\"Purpose\">\n\t\t<div class=\"pse1\">\n<a href=\"https:\/\/funlogy.jp\/collections\/frontpage\">\n\t<img data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0334\/2552\/2827\/files\/001.png?v=1591772638\" class=\"imgpse lazyautosizes lazyload\"><\/a>\n\t\t\t <a href=\"https:\/\/funlogy.jp\/collections\/frontpage\"><h3><span class=\"psespan\">家で楽しむ<\/span><\/h3>\n\n<\/a>\n<\/div>\n\t    <div class=\"pse2\">\n<a href=\"https:\/\/funlogy.jp\/collections\/%E5%B1%8B%E5%A4%96%E3%81%A7%E4%BD%BF%E3%81%86?nopreview\">\n\t<img data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0334\/2552\/2827\/files\/002.png?v=1591772639\" class=\"imgpse lazyautosizes lazyload\"><\/a>\n\t\t\t <a href=\"https:\/\/funlogy.jp\/collections\/%E5%B1%8B%E5%A4%96%E3%81%A7%E4%BD%BF%E3%81%86?nopreview\"><h3><span class=\"psespan\">屋外で楽しむ<\/span><\/h3>\n\n<\/a>\n<\/div>\n\t\t     <\/div>\n\t\n\t<div class=\"Purpose1\">\n\t    <div class=\"pse1\">\n<a href=\"https:\/\/funlogy.jp\/collections\/%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A7%E4%BD%BF%E3%81%86?nopreview\">\n\t<img data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0334\/2552\/2827\/files\/003.png?v=1591772638\" class=\"imgpse lazyautosizes lazyload\"><\/a>\n\t\t\t <a href=\"https:\/\/funlogy.jp\/collections\/%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A7%E4%BD%BF%E3%81%86?nopreview\"><h3><span class=\"psespan\">沢山の人と楽しむ<\/span><\/h3>\n<\/a>\n<\/div>\n\t    <div class=\"pse2\">\n<a href=\"https:\/\/funlogy.jp\/collections\/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%81%A7%E4%BD%BF%E3%81%86?nopreview\">\n\t<img data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0334\/2552\/2827\/files\/004.png?v=1591772638\" class=\"imgpse lazyautosizes lazyload\"><\/a>\n\t\t\t <a href=\"https:\/\/funlogy.jp\/collections\/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%81%A7%E4%BD%BF%E3%81%86?nopreview\"><h3><span class=\"psespan\">ビジネスで楽しむ<\/span><\/h3>\n\n<\/a>\n<\/div>\n             <\/div>\n\t\n\t\n\t\n\t<style>\n\t\t\n\t.Purpose{\ndisplay:flex;\n\t}\n\t\t\n\t.Purpose1{\ndisplay:flex;\n\t}\n\t\t\n\t.pse1{\n\t\t\tmargin:0 10px 0 auto;\n\t\t}\n\t\t\n\t\t\t.pse2{\n\t\t\tmargin:0 auto 0 10px;\n\t\t}\n\t\t\n\t .psespan{\n\t\t\tdisplay:block;\n\t\t\ttext-align:center;\n\t\t    color:#024f53;\n\t\t    font-size: 14px;\n\t\t    font-family:Robot,sans-serif;\n\t\t    margin:5px 0;\n\t\t}\n\t\t\n\t .imgpse{\nwidth:100%;\nmax-width:250px;\n\t\t margin:0 auto !important;\n\t\t padding:0;\n\t\t}\n\n\n@media screen and (max-width:768px) {\n.container__scroller{ \ndisplay:none;\n}\n}\n\n@media screen and (min-width:767px) {\n.Purpose_sp{ \ndisplay:none;\n}\n}\na{\n  text-decoration: none;\n}\n<div class=\"Purpose_sp\">\n\n<center><h2 class=\"heading h3\">目的から選ぶ<\/h2><\/center>\n\n<div class=\"container\">\t\n\t<div class=\"Purpose\">\n\t\t<div class=\"pse1\"><a href=\"\">\n\t<img data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0334\/2552\/2827\/files\/001.png?v=1591772638\" class=\"imgpse lazyautosizes lazyload\"><\/a>\n\t\t\t <a href=\"\"><span class=\"psespan\">家で楽しむ<\/span><\/a>\n<\/div>\n\t    <div class=\"pse2\"><a href=\"\">\n\t<img data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0334\/2552\/2827\/files\/002.png?v=1591772639\" class=\"imgpse lazyautosizes lazyload\"><\/a>\n\t\t\t <a href=\"\"><span class=\"psespan\">屋外で楽しむ<\/span><\/a>\n<\/div>\n\t\t     <\/div>\n\t\n\t<div class=\"Purpose1\">\n\t    <div class=\"pse1\"><a href=\"\">\n\t<img data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0334\/2552\/2827\/files\/003.png?v=1591772638\" class=\"imgpse lazyautosizes lazyload\"><\/a>\n\t\t\t <a href=\"\"><span class=\"psespan\">沢山の人と楽しむ<\/span><\/a>\n<\/div>\n\t    <div class=\"pse2\"><a href=\"\">\n\t<img data-src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0334\/2552\/2827\/files\/004.png?v=1591772638\" class=\"imgpse lazyautosizes lazyload\"><\/a>\n\t\t\t <a href=\"\"><span class=\"psespan\">ビジネスで楽しむ<\/span><\/a>\n<\/div>\n             <\/div>\n\t\n\t\n\t\n\t<style>\n\t\t\n\t.Purpose{\ndisplay:flex;\n\t}\n\t\t\n\t.Purpose1{\ndisplay:flex;\n\t}\n\t\t\n\t.pse1{\n\t\t\tmargin:0 10px 0 auto;\n\t\t}\n\t\t\n\t\t\t.pse2{\n\t\t\tmargin:0 auto 0 10px;\n\t\t}\n\t\t\n\t .psespan{\n\t\t\tdisplay:block;\n\t\t\ttext-align:center;\n\t\t    color:#024f53;\n\t\t    font-size: 14px;\n\t\t    font-family:Robot,sans-serif;\n\t\t    margin:5px 0;\n\t\t}\n\t\t\n\t .imgpse{\nwidth:100%;\nmax-width:250px;\n\t\t margin:0 auto !important;\n\t\t padding:0;\n\t\t}\n\n\n@media screen and (max-width:768px) {\n.container__scroller{ \ndisplay:none;\n}\n}\n\n@media screen and (min-width:767px) {\n.Purpose_sp{ \ndisplay:none;\n}\n}\na {\n  text-decoration: none!important;\n}\n\n\t<\/style>\n<\/div>\n<\/div>"
+        }
+      },
+      "1588242831141": {
+        "type": "custom-html",
+        "disabled": true,
+        "settings": {
+          "title": "",
+          "html": "<div class=\"shogun-root\" data-shogun-id=\"5eaaa90a05bafb00509ea93a\" data-shogun-site-id=\"37959b91-7d24-43b2-980c-ae92b7adf2b0\" data-shogun-page-id=\"5eaaa90a05bafb00509ea93a\" data-shogun-page-version-id=\"5eafbbac1827560050a830a7\" data-shogun-platform-type=\"shopify\" data-shogun-variant-id=\"5eafbbac1827560050a83158\" data-region=\"main\">\n  <link rel=\"stylesheet\" type=\"text\/css\" href=\"https:\/\/fonts.googleapis.com\/css?family=Roboto:700%7CRoboto:\">\n\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"https:\/\/cdn.getshogun.com\/5eafbbac1827560050a83158.css\">\n\n\n<div class=\"shg-fw\" style=\"margin-right: 0px; margin-left: 0px; width: calc(100% + 0px);\"><div class=\"shg-box-vertical-align-wrapper\">\n    <div class=\"shg-box shg-c    \" id=\"s-5115f842-d169-410a-aeb6-7a3221ac595f\">\n      <div class=\"shg-box-overlay\"><\/div>\n<div class=\"shg-box-content\">\n        <div class=\"shg-box-vertical-align-wrapper\">\n    <div class=\"shg-box shg-c    \" id=\"s-93987800-c726-4558-b2c4-8609d52cc400\">\n      <div class=\"shg-box-overlay\"><\/div>\n<div class=\"shg-box-content\">\n        \n\n<div class=\"shg-c shogun-image-container    shg-align-center\" style=\"\" id=\"s-0cac19a8-5256-4579-ba90-591ffab4694c\">\n  \n    \n      <img src=\"https:\/\/i.shgcdn.com\/cc910fa6-9753-4434-b080-b63ace5e58f8\/-\/format\/auto\/-\/preview\/3000x3000\/-\/quality\/lighter\/\" width=\"\" height=\"\" style=\"\" alt=\"\" class=\"shogun-image \">\n    \n  \n  \n  \n<\/div>\n\n<script type=\"text\/javascript\">\n  window.SHOGUN_IMAGE_ELEMENTS = window.SHOGUN_IMAGE_ELEMENTS || new Array();\n  window.SHOGUN_IMAGE_ELEMENTS.push({ hoverImage: '', uuid: 's-0cac19a8-5256-4579-ba90-591ffab4694c' })\n<\/script>\n\n      <\/div>\n    <\/div>\n  <\/div>\n<div id=\"s-6daf4f99-67b8-4212-b508-c182d6b2cc4c\" class=\"shg-c  shg-align-center\">\n  <div class=\"shogun-heading-component\">\n  <h1>\n    \n      あなたと周りの人の365日を<br>もっと楽しいものにしたい\n    \n  <\/h1>\n<\/div>\n<\/div>\n<div id=\"s-80d077ed-07f5-48e2-ae40-76aeb27cda50\" class=\"shg-c  \">\n  <div class=\"shg-rich-text shg-theme-text-content\">\n<p style=\"text-align: center; line-height: 11px;\"><span style=\"font-size: 14px; font-weight: 600;\"><span style=\"font-family: Roboto;\">F<\/span><span style=\"font-family: Roboto;\">unLogy は <\/span><span style=\"font-family: Roboto;\">Fun (楽しむ)<\/span><span style=\"font-family: Roboto;\"> Logy（テクノロジー）で、<\/span><\/span><\/p>\n<p style=\"text-align: center; line-height: 11px;\"><span style=\"font-family: Roboto; font-weight: 600; font-size: 14px;\">「科学技術を使って、お客様自身と、<\/span><span style=\"font-size: 14px; font-weight: 600;\"><span style=\"font-family: Roboto;\">共に生きる方の<\/span><\/span><\/p>\n<p style=\"text-align: center; line-height: 11px;\"><span style=\"font-size: 14px; font-weight: 600;\"><span style=\"font-family: Roboto;\">人生をより楽しいものにしたい」<\/span><\/span><\/p>\n<p style=\"text-align: center; line-height: 11px;\"><span style=\"font-family: Roboto; font-weight: 600; font-size: 14px;\">という想いから立ち上がった日本発のブランドです。<\/span><\/p>\n<\/div>\n\n<\/div>\n<div class=\"shg-box-vertical-align-wrapper\">\n    <div class=\"shg-box shg-c    \" id=\"s-cf754b01-1f68-4222-b6e0-e32c0fd161e9\">\n      <div class=\"shg-box-overlay\"><\/div>\n<div class=\"shg-box-content\">\n        <div id=\"s-053cfaa8-723a-411b-a36c-4e2f29f6d6fe\" class=\"shg-c  shg-align-center\">\n  <div class=\"shogun-heading-component\">\n  <h2>\n    \n      <a href=\"https:\/\/funlogy.jp\/pages\/about\" target=\"_self\">\n    \n      FunLogyについて\n    \n      <\/a>\n    \n  <\/h2>\n<\/div>\n<\/div>\n\n      <\/div>\n    <\/div>\n  <\/div>\n      <\/div>\n    <\/div>\n  <\/div><\/div>\n<div class=\"shg-box-vertical-align-wrapper\">\n    <div class=\"shg-box shg-c    \" id=\"s-bf83c904-1e8b-4d05-93c3-364b049b2e54\">\n      <div class=\"shg-box-overlay\"><\/div>\n<div class=\"shg-box-content\">\n        \n\n<div class=\"shg-c shogun-image-container    shg-align-center\" style=\"\" id=\"s-1f0d0d72-605a-4356-923e-48c128ae261c\">\n  \n    \n      <img src=\"https:\/\/i.shgcdn.com\/2482f91f-6e62-4dba-b3e1-de25b40b1c99\/-\/format\/auto\/-\/preview\/3000x3000\/-\/quality\/lighter\/\" width=\"\" height=\"\" style=\"\" alt=\"\" class=\"shogun-image \">\n    \n  \n  \n  \n<\/div>\n\n<script type=\"text\/javascript\">\n  window.SHOGUN_IMAGE_ELEMENTS = window.SHOGUN_IMAGE_ELEMENTS || new Array();\n  window.SHOGUN_IMAGE_ELEMENTS.push({ hoverImage: '', uuid: 's-1f0d0d72-605a-4356-923e-48c128ae261c' })\n<\/script>\n<div id=\"s-bc2a9912-2ca4-4a63-be3a-6d43687374d3\" class=\"shg-c  shg-align-center\">\n  <div class=\"shogun-heading-component\">\n  <h1>\n    \n      あなたと周りの人の<br>365日をもっと楽しいものにしたい\n    \n  <\/h1>\n<\/div>\n<\/div>\n<div id=\"s-f892ba1d-5638-4c83-a3d8-e519d307bb4f\" class=\"shg-c  \">\n  <div class=\"shg-rich-text shg-theme-text-content\">\n<p style=\"text-align: center;\"><span style=\"font-weight: 600;\"><span style=\"color: #ffffff; font-family: Roboto;\">F<\/span><span style=\"color: #ffffff; font-family: Roboto;\">unLogy は Fun (楽しむ)<\/span><span style=\"color: #ffffff; font-family: Roboto;\"> Logy（テクノロジー）で、<\/span><\/span><\/p>\n<p style=\"text-align: center;\"><span style=\"color: #ffffff; font-family: Roboto; font-weight: 600;\">「科学技術を使って、お客様自身と、共に生きる方の人生をより楽しいものにしたい」<\/span><\/p>\n<p style=\"text-align: center;\"><span style=\"color: #ffffff; font-family: Roboto; font-weight: 600;\">という想いから立ち上がった日本発のブランドです。<\/span><\/p>\n<p style=\"text-align: center;\"> <\/p>\n<\/div>\n\n<\/div>\n<div id=\"s-7a8e5833-8146-430c-94bc-67128796197d\" class=\"shg-c  \">\n  <div class=\"shg-rich-text shg-theme-text-content\"><p style=\"text-align: center;\"><strong><span style=\"color: #ffffff;\">全文を読む<\/span><\/strong><\/p><\/div>\n\n<\/div>\n<div id=\"s-2decb535-ac31-4633-b299-dfdd6808bff7\" class=\"shg-c  shg-align-center\">\n  <div class=\"shogun-heading-component\">\n  <h2>\n    \n      <a href=\"https:\/\/funlogy.jp\/pages\/about\" target=\"_self\">\n    \n      FunLogyについて<br>\n    \n      <\/a>\n    \n  <\/h2>\n<\/div>\n<\/div>\n\n      <\/div>\n    <\/div>\n  <\/div>\n<script type=\"text\/javascript\" src=\"https:\/\/cdn.getshogun.com\/5eafbbac1827560050a83158.js\" async=\"\"><\/script>\n\n<\/div>"
+        }
+      },
+      "1591588345859": {
+        "type": "rich-text",
+        "settings": {
+          "text_width": "narrow",
+          "title": "",
+          "content": "<p><strong>FunLogy は Fun (楽しむ) Logy (テクノロジー) で、<\/strong><\/p><p><strong>「科学技術を使って、お客様自身と、共に生きる方の人生をより楽しいものにしたい」<\/strong><\/p><p><strong>という想いから立ち上がった日本発のブランドです。<\/strong><\/p>",
+          "button_text": "FunLogyについて",
+          "button_link": "https:\/\/funlogy.jp\/pages\/about?nopreview"
+        }
+      },
+      "1597331089561": {
+        "type": "custom-html",
+        "settings": {
+          "title": "",
+          "html": "<div class=\"\">\n<h2 class=\"h2_25px\">よくある質問<\/h2>\n<div class=\"faq-div-div\">\n<input id=\"acd-check1\" class=\"acd-check\" type=\"checkbox\">\n  <label class=\"acd-label\" for=\"acd-check1\"><p class=\"faq-q-question\"><span class=\"faq-q-icon\">Q.<\/span>商品の使い方が分からない。<\/p><\/label>\n\n  <div class=\"acd-content\">\n<p class=\"faq-a-answer\">\n  <span class=\"faq-a-icon\">A.<\/span>機種別の使用方法につきましては<a href=\"https:\/\/funlogy.jp\/pages\/howto\"><u>こちら<\/u><\/a>をご覧ください。<\/p>\n  <\/div>\n <input id=\"acd-check2\" class=\"acd-check\" type=\"checkbox\"> \n<label class=\"acd-label\" for=\"acd-check2\">\n  <p class=\"faq-q-question\"><span class=\"faq-q-icon\">Q.<\/span>配送先を間違えました。<\/p>\n  <\/label>\n\n    <div class=\"acd-content\">\n  <p class=\"faq-a-answer\">\n    <span class=\"faq-a-icon\">A.<\/span>離島の場合は商品の到着に、6~7日ほどお時間をいただいております。<br> また、離島以外の一部地域でも2〜4日ほどお時間をいただく場合がございます。 <br> 詳しくはこちらをご覧ください。<\/p>\n  <\/div>\n\n  <input id=\"acd-check3\" class=\"acd-check\" type=\"checkbox\">\n  <label class=\"acd-label\" for=\"acd-check3\">\n<p class=\"faq-q-question\"><span class=\"faq-q-icon\">Q.<\/span>プレゼントにしたい。<\/p>\n  <\/label>\n\n      <div class=\"acd-content\">\n  <p class=\"faq-a-answer\"><span class=\"faq-a-icon\">A.<\/span>納品書に値段は記載しておりません。カードなどの同梱はできません。<\/p>\n        <\/div>\n  \n  <input id=\"acd-check4\" class=\"acd-check\" type=\"checkbox\">\n  <label class=\"acd-label\" for=\"acd-check4\">\n<p class=\"faq-q-question\"><span class=\"faq-q-icon\">Q.<\/span>Amazon／楽天から商品が届いた。<\/p>\n  <\/label>\n\n      <div class=\"acd-content\">\n  <p class=\"faq-a-answer\"><span class=\"faq-a-icon\">A.<\/span>弊社は商品の在庫管理や出荷手続きを、他社サービス(フルフィルメント by Amazonなど)で代行しております。<\/p>\n  <\/div>\n<\/div>\n<div class=\"h3__yokuaru_div\">\n<a href=\"\/pages\/duestion\"><h3 class=\"h3__yokuaru\">よくある質問の詳細はこちら<\/h3><\/a>\n<\/div>\n<\/div>"
+        }
+      },
+      "1599034427752": {
+        "type": "custom-html",
+        "settings": {
+          "title": "",
+          "html": "<div style=\"margin:100px 0 -30px 0;\"><h2 class=\"h2_25px\">みんなのFunLogy\n<br>～ホームシアターアイディア～<\/h2><\/div>"
+        }
+      }
+    },
+    "content_for_index": [
+      "1591588345859",
+      "1585900114045",
+      "collection-list",
+      "1588239786388",
+      "1582160865636",
+      "1585637935130",
+      "1588242831141",
+      "1586509264865",
+      "1585641260066",
+      "1582168342347",
+      "1585308225635",
+      "1597331089561",
+      "1585650271649",
+      "1582161789764",
+      "1599034427752",
+      "1585132165923",
+      "1582166449294",
+      "1582167733122",
+      "1582169661061",
+      "1588150398068",
+      "1582288257446",
+      "1582287578495"
+    ]
+  },
+  "presets": {
+    "Metal": {
+      "heading_color": "#1e2d7d",
+      "text_color": "#677279",
+      "accent_color": "#00badb",
+      "link_color": "#00badb",
+      "border_color": "#e1e3e4",
+      "background": "#f3f5f6",
+      "secondary_background": "#ffffff",
+      "error_color": "#ff0000",
+      "success_color": "#00aa00",
+      "primary_button_background": "#00badb",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#1e2d7d",
+      "secondary_button_text_color": "#ffffff",
+      "header_background": "#1e2d7d",
+      "header_text_color": "#ffffff",
+      "header_light_text_color": "#a3afef",
+      "header_accent_color": "#00badb",
+      "product_on_sale_accent": "#ee0000",
+      "product_in_stock_color": "#008a00",
+      "product_low_stock_color": "#ee0000",
+      "product_sold_out_color": "#8a9297",
+      "product_label_1_background": "#008a00",
+      "product_label_2_background": "#00a500",
+      "product_star_color": "#ffbd00",
+      "base_text_font_size": 16,
+      "heading_font": "din_next_n5",
+      "text_font": "din_next_n4",
+      "underline_links": true,
+      "animation_image_zoom": true,
+      "currency_conversion_enabled": false,
+      "currency_conversion_round_amounts": false,
+      "currency_conversion_supported_currencies": "USD CAD EUR GBP",
+      "currency_conversion_money_format": "money_format",
+      "search_mode": "product,article",
+      "show_vendor": true,
+      "show_secondary_image": true,
+      "product_price_position": "after_title",
+      "product_image_size": "natural",
+      "show_discount": true,
+      "discount_mode": "saving",
+      "show_color_swatch": false,
+      "show_inventory_quantity": false,
+      "low_inventory_threshold": 0,
+      "show_reviews_badge": false,
+      "cart_type": "drawer",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "share_image": "",
+      "social_facebook": "",
+      "social_twitter": "",
+      "social_google_plus": "",
+      "social_pinterest": "",
+      "social_instagram": "",
+      "social_vimeo": "",
+      "social_tumblr": "",
+      "social_youtube": "",
+      "social_linkedin": "",
+      "social_snapchat": "",
+      "social_fancy": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#00badb",
+      "checkout_button_color": "#00badb",
+      "checkout_error_color": "#ff0000",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": 140,
+            "mobile_logo_max_width": 100,
+            "navigation_menu": "main-menu",
+            "desktop_navigation_layout": "inline",
+            "desktop_navigation_open_trigger": "hover",
+            "navigation_phone_number": "Call us 000-000-0000",
+            "navigation_email": "info@yourwebsite.com",
+            "search_menu": ""
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "edge_to_edge": true,
+            "section_size": "preserve_ratio",
+            "cycle_speed": 5
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2",
+            "collection-3",
+            "collection-4",
+            "collection-5"
+          ],
+          "settings": {
+            "title": "Our collections",
+            "link_title": "View all",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "product": "",
+            "title": "Featured product",
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "carousel_effect": "fade"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_size": "small",
+            "default_view_layout": "grid",
+            "show_quick_view": "list",
+            "show_quick_buy": "list",
+            "quick_links": "",
+            "filter_type": "tag"
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "title": "Recently viewed"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "carousel_effect": "fade",
+            "tab_page_1_handle": "",
+            "tab_page_2_handle": "",
+            "tab_page_3_handle": "",
+            "custom_security_badge": ""
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {}
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "background": "#1e2d7d",
+            "text_color": "#ffffff",
+            "text": "Announce something here",
+            "link": "",
+            "newsletter_button": "Subscribe & Save",
+            "newsletter_title": "Newsletter",
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984811767": {
+          "type": "featured-collection",
+          "settings": {
+            "collection": "",
+            "title": "Featured collection",
+            "products_count": 12,
+            "layout": "vertical",
+            "link_title": "View all"
+          }
+        },
+        "1542984842027": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984882560": {
+          "type": "blog-posts",
+          "settings": {
+            "blog": "news",
+            "title": "Blog posts"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "1542984811767",
+        "collection-list",
+        "1542984842027",
+        "featured-product",
+        "1542984882560"
+      ]
+    },
+    "Wood": {
+      "heading_color": "#3a2a2f",
+      "text_color": "#3a2a2f",
+      "accent_color": "#ff6128",
+      "link_color": "#ff6128",
+      "border_color": "#e7e2de",
+      "background": "#f7f4f2",
+      "secondary_background": "#ffffff",
+      "error_color": "#f71b1b",
+      "success_color": "#48b448",
+      "primary_button_background": "#ff6128",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#3a2a2f",
+      "secondary_button_text_color": "#ffffff",
+      "header_background": "#3a2a2f",
+      "header_text_color": "#ffffff",
+      "header_light_text_color": "#e9e2dd",
+      "header_accent_color": "#ff6128",
+      "product_on_sale_accent": "#ee0000",
+      "product_in_stock_color": "#008a00",
+      "product_low_stock_color": "#ee0000",
+      "product_sold_out_color": "#d1d1d4",
+      "product_label_1_background": "#ff6128",
+      "product_label_2_background": "#a95ebe",
+      "product_star_color": "#ffb647",
+      "base_text_font_size": 15,
+      "heading_font": "itc_avant_garde_gothic_n5",
+      "text_font": "basic_commercial_n4",
+      "underline_links": true,
+      "animation_image_zoom": true,
+      "currency_conversion_enabled": false,
+      "currency_conversion_round_amounts": false,
+      "currency_conversion_supported_currencies": "USD CAD EUR GBP",
+      "currency_conversion_money_format": "money_format",
+      "search_mode": "product,article,page",
+      "show_vendor": true,
+      "show_secondary_image": true,
+      "show_discount": true,
+      "discount_mode": "percentage",
+      "product_price_position": "after_title",
+      "product_image_size": "square",
+      "show_color_swatch": false,
+      "show_inventory_quantity": true,
+      "low_inventory_threshold": 1,
+      "show_reviews_badge": false,
+      "cart_type": "drawer",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_show_free_shipping_threshold": true,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#f7f4f2",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#ff6128",
+      "checkout_button_color": "#ff6128",
+      "checkout_error_color": "#f71b1b",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": 140,
+            "mobile_logo_max_width": 100,
+            "navigation_menu": "main-menu",
+            "desktop_navigation_layout": "inline",
+            "desktop_navigation_open_trigger": "hover",
+            "navigation_phone_number": "Call us 000-000-0000",
+            "navigation_email": "info@yourwebsite.com",
+            "search_menu": ""
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "edge_to_edge": true,
+            "section_size": "preserve_ratio",
+            "cycle_speed": 5
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2",
+            "collection-3",
+            "collection-4",
+            "collection-5"
+          ],
+          "settings": {
+            "title": "Our collections",
+            "link_title": "View all",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_size": "small",
+            "default_view_layout": "grid",
+            "show_quick_view": "list",
+            "show_quick_buy": "list",
+            "quick_links": "",
+            "filter_type": "tag"
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "title": "Recently viewed"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "carousel_effect": "fade",
+            "tab_page_1_handle": "",
+            "tab_page_2_handle": "",
+            "tab_page_3_handle": "",
+            "custom_security_badge": ""
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {}
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "background": "#3a2a2f",
+            "text_color": "#ffffff",
+            "text": "Announce something here",
+            "link": "",
+            "newsletter_button": "Subscribe & Save",
+            "newsletter_title": "Newsletter",
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984811767": {
+          "type": "featured-collection",
+          "settings": {
+            "collection": "",
+            "title": "Featured collection",
+            "products_count": 12,
+            "layout": "vertical",
+            "link_title": "View all"
+          }
+        },
+        "1550833441117": {
+          "type": "collection-with-image",
+          "settings": {
+            "collection": "",
+            "products_count": 12,
+            "image": "",
+            "background": "#3a2a2f",
+            "text_color": "#ffffff",
+            "title": "Our best sellers",
+            "content": "Shop our most popular products for this season.",
+            "button_background": "#e95d2b",
+            "button_text_color": "#ffffff",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "1555314133560": {
+          "type": "promotion-list",
+          "blocks": {
+            "1555314133560-0": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#6f42ef",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#6f42ef",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            },
+            "1555314133560-1": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#fc2a68",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#fc2a68",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            },
+            "1555314133560-2": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#26c1ce",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#26c1ce",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1555314133560-0",
+            "1555314133560-1",
+            "1555314133560-2"
+          ],
+          "settings": {
+            "expand_items": false,
+            "section_size": "medium",
+            "stack_mobile": false
+          }
+        },
+        "1542984882560": {
+          "type": "blog-posts",
+          "settings": {
+            "blog": "news",
+            "title": "Blog posts"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "1542984811767",
+        "1555314133560",
+        "collection-list",
+        "1550833441117",
+        "1542984882560"
+      ]
+    }
+  }
+}

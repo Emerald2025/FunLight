@@ -1,0 +1,64 @@
+{% render 'shogun-products', content: product %}
+{% include 'shogun-products', content: product %}
+{{product.metafields.shogun.above}}
+{%- comment -%}
+If the product contains the special __gift tag, we prevent it to be completely accessible by redirecting to the home page
+{%- endcomment -%}
+
+{%- if product.tags contains '__gift' -%}
+  <script>
+    window.location.href = '/';
+  </script>
+{%- else -%}
+  {% section 'product-template' %}
+
+
+  <script>
+    window.ShopifyXR=window.ShopifyXR||function(){(ShopifyXR.q=ShopifyXR.q||[]).push(arguments)};
+    ShopifyXR('addModels', {{ product.media | where: 'media_type', 'model' | json }});
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+  $(function(){
+  $("button.card__collapsible-button").click();
+  });
+  </script>
+{%- endif -%}
+
+{{product.metafields.shogun.below}}
+
+{%- if product.metafields.related.products != blank -%}
+{% section 'product-popular' %}
+{%- endif -%}
+
+<!--この商品をチェックした人はこんな商品もチェックしています-->
+  {% section 'product-recommendations' %}
+  {% section 'static-promotion-list' %}
+<!--最近見た商品-->
+  {% section 'static-recently-viewed-products' %}
+
+
+<div id="opinew-rich-snippets-code-container">{{ product.metafields.opinew_metafields['rich_snippets'] }}</div>
+<div style="clear:both;"></div><div style="clear:both;"></div><div id="opinew-reviews-product-page-code" class="">
+                <span id="opinew-plugin" data-server-address="https://www.opinew.com" data-opw-prodreviews="{{ product.metafields.opinew_metafields['product_plugin'] }}" data-opinew-shop-id="{{ shop.id }}" data-shop-url="{{shop.domain}}" data-platform-product-id="{{product.id}}">
+                 <span id="opinew_product_plugin_app"></span>
+                </span></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
